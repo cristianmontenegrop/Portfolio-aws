@@ -24,7 +24,7 @@ module.exports = {
     },
     plugins: [
         new CopyWebpackPlugin({
-            patterns: ['src/index.html']
+            patterns: ['src']
         }),
         new webpack.HotModuleReplacementPlugin()
     ]
