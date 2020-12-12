@@ -102,7 +102,13 @@ h4 {
 .work img {
   /* Consider a gradient overlay here instead */
   opacity: .8;
+  /* height: 10 rem; */
+  overflow: hidden;
 }
+/* .img {
+
+height: overlay; 
+} */
 
 .overlay {
   opacity: 0;
@@ -119,26 +125,28 @@ h4 {
 }
 
 .over-title {
-  margin-top: 35px;
-  font-weight: 400;
+  margin-top: 5px;
+  font-weight: 10;
 }
 
 .over-summary,
 .over-tech {
   font-weight: 350;
   margin-top: 5px;
-  font-size: 18px;
+  font-size: 15px;
 }
 
 .over-tech {
   font-weight: 300;
-  color: #8c8c8c;
+  color: #696969;
 
 }
 
 .over-git {
   margin-top: 10px;
   transition: all .2s ease-in-out;
+  height: 48px;
+   width: 48px;
 }
 
 .over-git:hover {
@@ -146,17 +154,21 @@ h4 {
   transform: scale(1.1);
 }
 
+.over-open-button{
+width:10rem;
 
+}
 .over-learn {
   color: black;
   border: 2px solid #8c8c8c;
-  width: 200px;
+  width: 10rem;
   font-weight: 350;
   transition: 0.5s;
   margin-top: 15px;
   font-size: 16px;
   padding-top: 5px;
   padding-bottom: 5px;
+  
 }
 
 .over-learn:hover {
@@ -363,6 +375,40 @@ h4 {
     width: 150px;
     position: relative;
     top: 7px;
+  }
+
+  .over-summary,
+  .over-tech {
+    font-weight: 350;
+    margin-top: 1px;
+    font-size: 10px;
+  }
+  
+
+  
+  .over-git {
+    margin-top: -5px;
+    transition: all .2s ease-in-out;
+    height: 30px;
+     width: 30px;
+  }
+  
+  .over-git:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+  }
+  
+  
+  .over-learn {
+    color: black;
+    border: 2px solid #8c8c8c;
+    width: 200px;
+    font-weight: 350;
+    transition: 0.5s;
+    margin-top: 2px;
+    font-size: 16px;
+    padding-top: 5px;
+    padding-bottom: 5px;
   }
 
   #cat-row {
